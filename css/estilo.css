@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
+body {
+  font-family: 'Dosis', sans-serif;
+  background-image: url(../../imagenes/trama.png);
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-copyright {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+  padding: 40px;
+}
+
+.login {
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.login .container-fluid {
+  height: 100%;
+}
+
+.login .container-fluid .row {
+  height: 100%;
+}
+
+.login .container-fluid .row .yopal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 2;
+  background-color: #e9ecefa2;
+}
+
+.login .container-fluid .row .yopal .logo-yopal {
+  height: 400px;
+}
+
+.login .container-fluid .row .yopal .logo-barracuda {
+  height: 200px;
+}
+
+.logo-barracuda {
+    height: 180px;
+  }
+
+.login .container-fluid .row .yopal .background {
+  background-image: url(../../imagenes/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -2;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.login .container-fluid .row .yopal .filtro {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #0070c0;
+  background: -webkit-gradient(linear, left bottom, left top, from(#ffffff91), to(#ffffff));
+  opacity: 0.9;
+}
+
+.login .container-fluid .row .ingreso {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url(../../imagenes/trama2.jpg);
+}
+
+.login .container-fluid .row .ingreso .loginform {
+  padding: 30px;
+  width: 600px;
+}
+
+.login .container-fluid .row .ingreso .loginform label {
+  font-size: 25px;
+}
+
+.login .container-fluid .row .ingreso .loginform button {
+  border: 2px solid transparent;
+  border-color: #28a745;
+  border-radius: 0;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.5rem;
+}
+
+.login .container-fluid .row .ingreso .loginform .title, .login .container-fluid .row .ingreso .loginform label {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: #fff;
+}
+
+.main {
+  padding: 0;
+}
+
+.menu {
+  padding: 2rem 2rem 2rem;
+}
+
+.contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contenedor .crm {
+  margin: 5px;
+  background-color: #6c2890;
+  color: #fff;
+  padding: 10px;
+  width: 320px;
+  text-align: center;
+  border: none;
+  text-decoration: none;
+}
+
+.contenedor .crm div {
+  background-color: #4a1368;
+  padding: 3px;
+}
+
+.contenedor .crm img:hover {
+  cursor: pointer;
+}
+
+.contenedor .crm span {
+  position: absolute;
+  display: block;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 5px;
+}
+
+.contenedor .crm:hover, .contenedor .crm:focus {
+  background-color: #27b22c;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border: none;
+}
+
+.btn-yopal {
+  background-color: #6c2890;
+  color: #fff;
+  padding: 10px;
+  margin: 5px;
+  text-align: left;
+}
+
+.btn-yopal .shortcut {
+  float: right;
+  color: #ffffff78;
+}
+
+.btn-yopal:hover, .btn-yopal:focus {
+  background-color: #27b22c;
+  color: #fff;
+}
+
+.salir {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.salir a {
+  width: 60px;
+  height: 60px;
+  padding: 15px;
+  border-radius: 50px;
+  background: #6c2890;
+  border-color: #360450;
+  color: #fff;
+  -webkit-transition: width 0.1s;
+  transition: width 0.1s;
+}
+
+.salir a span {
+  display: inline-block;
+  position: relative;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.salir a span::after {
+  content: ' SALIR';
+  opacity: 0;
+  display: none;
+  -webkit-transition: 0.01s;
+  transition: 0.01s;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+.salir a:hover {
+  width: 120px;
+}
+
+.salir a:hover span::after {
+  display: inline-block;
+  opacity: 1;
+  right: 0;
+}
+
+.modal button.close {
+  background: red;
+  color: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 3px;
+  padding: 0 !important;
+  margin: 0.1rem;
+}
+
+.footer-copyright {
+  color: #fff;
+}
+/*# sourceMappingURL=estilo.css.map */
